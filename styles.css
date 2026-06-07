@@ -279,6 +279,56 @@ h4 {
   overflow-wrap: anywhere;
 }
 
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.profile-links a {
+  display: inline-flex;
+  margin: 0;
+  text-decoration: none;
+}
+
+.profile-icon {
+  width: 2.15rem;
+  height: 2.15rem;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.profile-links a:hover .profile-icon,
+.profile-links a:focus-visible .profile-icon {
+  border-color: currentColor;
+  transform: translateY(-1px);
+}
+
+.profile-icon.linkedin {
+  color: #0a66c2;
+}
+
+.profile-icon.researchgate {
+  color: #00a98f;
+}
+
+.profile-icon.github {
+  color: #24292f;
+}
+
+.profile-icon.rug {
+  color: #cc0033;
+  font-size: 0.62rem;
+}
+
 .section-block {
   width: min(100% - 32px, var(--max));
   margin: 0 auto;
