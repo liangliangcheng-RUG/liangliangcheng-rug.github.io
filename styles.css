@@ -570,6 +570,21 @@ h4 {
   margin: 0.55rem 0 0;
 }
 
+.project-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-card h3 a:hover,
+.project-card h3 a:focus-visible {
+  color: var(--teal);
+  text-decoration: underline;
+}
+
+.project-logo-link {
+  display: inline-block;
+}
+
 .amount {
   color: var(--plum) !important;
   font-weight: 800;
