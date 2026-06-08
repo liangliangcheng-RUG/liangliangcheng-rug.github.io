@@ -478,6 +478,26 @@ h4 {
   grid-template-columns: minmax(0, 1fr);
 }
 
+.staff-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.staff-sections > section {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.staff-sections .people-grid {
+  flex: 1;
+}
+
+.staff-sections .person-card {
+  height: 100%;
+}
+
 .person-card {
   display: grid;
   grid-template-columns: 86px minmax(0, 1fr);
@@ -740,7 +760,8 @@ address {
   .focus-grid,
   .student-list,
   .plain-list,
-  .alumni-columns {
+  .alumni-columns,
+  .staff-sections {
     grid-template-columns: 1fr;
   }
 }
