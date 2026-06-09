@@ -292,13 +292,6 @@ h4 {
   text-decoration: none;
 }
 
-.profile-link-inline {
-  display: inline-flex;
-  margin-left: 2ch;
-  vertical-align: middle;
-  text-decoration: none;
-}
-
 .profile-icon {
   width: 2.15rem;
   height: 2.15rem;
@@ -314,9 +307,7 @@ h4 {
 }
 
 .profile-links a:hover .profile-icon,
-.profile-links a:focus-visible .profile-icon,
-.profile-link-inline:hover .profile-icon,
-.profile-link-inline:focus-visible .profile-icon {
+.profile-links a:focus-visible .profile-icon {
   border-color: currentColor;
   transform: translateY(-1px);
 }
@@ -333,13 +324,18 @@ h4 {
   color: #24292f;
 }
 
-.profile-icon.scholar {
-  color: #4285f4;
-}
-
 .profile-icon.rug {
   color: #cc0033;
   font-size: 0.62rem;
+}
+
+.person-card:not(.featured) .profile-links {
+  margin-top: 0.55rem;
+}
+
+.person-card:not(.featured) .profile-icon {
+  width: 1.9rem;
+  height: 1.9rem;
 }
 
 .section-block {
@@ -489,26 +485,6 @@ h4 {
 
 .people-grid.single {
   grid-template-columns: minmax(0, 1fr);
-}
-
-.staff-sections {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.staff-sections > section {
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.staff-sections .people-grid {
-  flex: 1;
-}
-
-.staff-sections .person-card {
-  height: 100%;
 }
 
 .person-card {
@@ -773,8 +749,7 @@ address {
   .focus-grid,
   .student-list,
   .plain-list,
-  .alumni-columns,
-  .staff-sections {
+  .alumni-columns {
     grid-template-columns: 1fr;
   }
 }
