@@ -292,6 +292,13 @@ h4 {
   text-decoration: none;
 }
 
+.profile-link-inline {
+  display: inline-flex;
+  margin-left: 0.45rem;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
 .profile-icon {
   width: 2.15rem;
   height: 2.15rem;
@@ -307,7 +314,9 @@ h4 {
 }
 
 .profile-links a:hover .profile-icon,
-.profile-links a:focus-visible .profile-icon {
+.profile-links a:focus-visible .profile-icon,
+.profile-link-inline:hover .profile-icon,
+.profile-link-inline:focus-visible .profile-icon {
   border-color: currentColor;
   transform: translateY(-1px);
 }
