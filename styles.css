@@ -622,13 +622,20 @@ h4 {
   height: 2.25rem;
   display: inline-grid;
   place-items: center;
-  border: 1px solid rgba(8, 118, 109, 0.25);
+  border: 1px solid rgba(8, 118, 109, 0.28);
   border-radius: 50%;
-  background: rgba(8, 118, 109, 0.1);
+  background: linear-gradient(180deg, rgba(8, 118, 109, 0.12), rgba(194, 132, 33, 0.1));
   color: var(--teal);
-  font-size: 0.68rem;
-  font-weight: 900;
-  line-height: 1;
+}
+
+.theme-icon svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .tag {
