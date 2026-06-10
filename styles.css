@@ -550,6 +550,7 @@ h4 {
 }
 
 .news-detail-layout {
+  margin-top: 1.2rem;
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(360px, 0.75fr);
   gap: 2rem;
