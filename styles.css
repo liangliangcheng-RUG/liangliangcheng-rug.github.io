@@ -279,6 +279,17 @@ h4 {
   overflow-wrap: anywhere;
 }
 
+.intro-visual .rug-affiliation-link {
+  color: #cc0033;
+  text-decoration: none;
+}
+
+.intro-visual .rug-affiliation-link:hover,
+.intro-visual .rug-affiliation-link:focus-visible {
+  color: #9f1239;
+  text-decoration: none;
+}
+
 .profile-links {
   display: flex;
   flex-wrap: wrap;
