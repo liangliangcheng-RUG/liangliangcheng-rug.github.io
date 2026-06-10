@@ -854,6 +854,30 @@ address {
   margin: 0;
 }
 
+.visitor-counter {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  border: 1px solid rgba(23, 32, 37, 0.12);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 8px 22px rgba(23, 32, 37, 0.12);
+  text-decoration: none;
+}
+
+.visitor-counter:hover,
+.visitor-counter:focus-visible {
+  border-color: var(--teal);
+}
+
+.visitor-counter img {
+  height: 24px;
+}
+
 @media (max-width: 1080px) {
   h1 {
     font-size: 2.3rem;
@@ -980,5 +1004,10 @@ address {
 
   .site-footer {
     flex-direction: column;
+  }
+
+  .visitor-counter {
+    right: 12px;
+    bottom: 12px;
   }
 }
