@@ -618,22 +618,23 @@ h4 {
 
 .theme-icon {
   flex: 0 0 auto;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.45rem;
+  height: 2.45rem;
   display: inline-grid;
   place-items: center;
-  border: 1px solid rgba(8, 118, 109, 0.28);
-  border-radius: 50%;
-  background: linear-gradient(180deg, rgba(8, 118, 109, 0.12), rgba(194, 132, 33, 0.1));
-  color: var(--teal);
+  border: 1px solid rgba(143, 29, 59, 0.18);
+  border-radius: 0.65rem;
+  background: #fff;
+  color: var(--burgundy);
+  box-shadow: 0 8px 18px rgba(12, 35, 64, 0.07);
 }
 
 .theme-icon svg {
-  width: 1.35rem;
-  height: 1.35rem;
+  width: 1.45rem;
+  height: 1.45rem;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.9;
+  stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
