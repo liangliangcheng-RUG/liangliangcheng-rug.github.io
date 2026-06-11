@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://liangliangcheng-rug.github.io/sitemap.xml
