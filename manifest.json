@@ -1,0 +1,22 @@
+{
+  "name": "NDT & SHM Group",
+  "short_name": "NDT & SHM",
+  "description": "NDT & SHM Group at the University of Groningen",
+  "start_url": "https://liangliangcheng-rug.github.io/",
+  "scope": "https://liangliangcheng-rug.github.io/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://liangliangcheng-rug.github.io/favicon-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "https://liangliangcheng-rug.github.io/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
