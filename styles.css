@@ -804,6 +804,18 @@ h4 {
   padding-left: 0.25rem;
 }
 
+.publication-new {
+  display: inline-block;
+  margin-left: 0.35rem;
+  color: #c5162e;
+  font-size: 0.72rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0;
+  vertical-align: 0.08em;
+  animation: newsPulse 1.2s ease-in-out infinite;
+}
+
 .project-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
