@@ -655,7 +655,7 @@ h4 {
 
 .research-entry-with-media {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
   gap: 1.15rem;
   align-items: start;
 }
@@ -747,14 +747,14 @@ h4 {
   line-height: 1.65;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 860px) {
   .research-entry-with-media {
     grid-template-columns: 1fr;
     gap: 0.8rem;
   }
 
   .research-entry-media {
-    width: min(100%, 360px);
+    width: min(100%, 640px);
   }
 }
 
