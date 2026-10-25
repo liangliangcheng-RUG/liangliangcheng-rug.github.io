@@ -402,8 +402,13 @@
     gap: 0;
     padding: 0.5rem 0;
     overflow-x: auto;
+    scrollbar-width: none;
     background: #fff;
     border-bottom: 1px solid var(--line);
+  }
+
+  .people-index::-webkit-scrollbar {
+    display: none;
   }
 
   .people-index a {
