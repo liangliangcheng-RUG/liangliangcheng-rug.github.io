@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" sizes="192x192" href="https://liangliangcheng-rug.github.io/favicon-192.png">
     <link rel="manifest" href="https://liangliangcheng-rug.github.io/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="styles.css?v=airfoil-20261025d">
+    <link rel="stylesheet" href="styles.css?v=airfoil-20261025e">
     <script src="site.js?v=academic-20261025" defer></script>
   </head>
   <body>
@@ -67,10 +67,16 @@
               <figure class="airfoil-comparison">
                 <figcaption class="airfoil-panel-labels"><span>Prediction</span><span>Ground truth</span></figcaption>
                 <a class="airfoil-image-link" href="assets/research/airfoil/prediction-ground-truth.gif" target="_blank" rel="noopener" aria-label="Open the prediction and ground truth animation at full size" title="View full-size prediction and ground truth">
-                  <picture>
-                    <source media="(prefers-reduced-motion: reduce)" srcset="assets/research/airfoil/prediction-ground-truth-still.png">
-                    <img src="assets/research/airfoil/prediction-ground-truth.gif" alt="Airfoil flow comparison: prediction on the left and ground truth on the right" width="1502" height="302" loading="lazy">
-                  </picture>
+                  <span class="airfoil-cropped-panels">
+                    <picture class="airfoil-frame airfoil-frame-prediction">
+                      <source media="(prefers-reduced-motion: reduce)" srcset="assets/research/airfoil/prediction-ground-truth-still.png">
+                      <img src="assets/research/airfoil/prediction-ground-truth.gif" alt="Airfoil flow prediction" width="1502" height="302" loading="lazy">
+                    </picture>
+                    <picture class="airfoil-frame airfoil-frame-truth">
+                      <source media="(prefers-reduced-motion: reduce)" srcset="assets/research/airfoil/prediction-ground-truth-still.png">
+                      <img src="assets/research/airfoil/prediction-ground-truth.gif" alt="Airfoil flow ground truth" width="1502" height="302" loading="lazy">
+                    </picture>
+                  </span>
                 </a>
               </figure>
             </div>
