@@ -313,6 +313,20 @@ h4 {
   overflow-wrap: anywhere;
 }
 
+.intro-visual .institution-logo {
+  display: inline-block;
+  margin-top: 1.25rem;
+}
+
+.intro-visual .institution-logo img {
+  width: 180px;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: 0;
+  background: transparent;
+}
+
 .intro-visual .rug-affiliation-link {
   color: #cc0033;
   text-decoration: none;
