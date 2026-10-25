@@ -834,8 +834,14 @@ h4 {
   margin: 0;
 }
 
+.airfoil-geometry .airfoil-image-link {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 295 / 116;
+}
+
 .airfoil-geometry img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
