@@ -768,20 +768,29 @@ h4 {
 
 .airfoil-media {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
-  align-items: center;
-  gap: 0.75rem;
+  grid-template-columns: minmax(0, 1.0227fr) minmax(0, 2fr);
+  align-items: start;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.airfoil-panel-labels,
+.airfoil-geometry-label {
+  min-height: 1.25rem;
+  margin: 0 0 0.6rem;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .airfoil-panel-labels {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--muted);
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-align: center;
 }
 
 .airfoil-comparison {
@@ -801,9 +810,17 @@ h4 {
 }
 
 .airfoil-geometry img {
-  width: 160px;
+  width: 100%;
   height: auto;
-  margin: 0 auto;
+}
+
+.airfoil-image-link {
+  display: block;
+  cursor: zoom-in;
+}
+
+.airfoil-image-link:hover {
+  opacity: 0.9;
 }
 
 .research-entry-copy {
