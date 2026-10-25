@@ -893,15 +893,9 @@ h4 {
 .railway-theme-media img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: contain;
-}
-
-.research-media-credit {
-  margin-top: 0.5rem;
-  color: var(--muted);
-  font-size: 0.75rem;
-  line-height: 1.45;
+  aspect-ratio: 1424 / 448;
+  object-fit: cover;
+  object-position: center 35%;
 }
 
 .research-equation-details {
