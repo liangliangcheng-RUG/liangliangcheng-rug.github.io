@@ -763,23 +763,26 @@ h4 {
 }
 
 .research-entry-airfoil .research-entry-media {
-  align-self: center;
+  align-self: start;
 }
 
 .airfoil-media {
   display: grid;
-  grid-template-columns: minmax(0, 1.1815fr) minmax(0, 2fr);
-  align-items: start;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 2fr);
+  align-items: stretch;
   gap: 1rem;
-  padding: 0.85rem 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+}
+
+.airfoil-media > figure {
+  display: grid;
+  grid-template-rows: 1.25rem 1fr;
+  row-gap: 0.6rem;
 }
 
 .airfoil-panel-labels,
 .airfoil-geometry-label {
   min-height: 1.25rem;
-  margin: 0 0 0.6rem;
+  margin: 0;
   color: var(--ink);
   font-size: 0.78rem;
   font-weight: 600;
@@ -837,11 +840,14 @@ h4 {
 .airfoil-geometry .airfoil-image-link {
   display: grid;
   place-items: center;
-  aspect-ratio: 295 / 116;
+}
+
+.airfoil-comparison > .airfoil-image-link {
+  align-self: center;
 }
 
 .airfoil-geometry img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
