@@ -885,11 +885,6 @@ h4 {
   line-height: 1.65;
 }
 
-.research-entry-media.railway-theme-media {
-  width: min(100%, 380px);
-  justify-self: center;
-}
-
 .railway-theme-media img {
   width: 100%;
   height: auto;
