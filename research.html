@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" sizes="192x192" href="https://liangliangcheng-rug.github.io/favicon-192.png">
     <link rel="manifest" href="https://liangliangcheng-rug.github.io/manifest.json">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="styles.css?v=motion-comparison-v1">
+    <link rel="stylesheet" href="styles.css?v=nonlinear-modes-v1">
     <script src="site.js?v=academic-20261025" defer></script>
   </head>
   <body>
@@ -45,9 +45,24 @@
           <h1>Research themes</h1>
         </div>
         <div class="research-list">
-          <article class="research-entry">
+          <article class="research-entry research-entry-with-media" id="nonlinear-structural-dynamics" aria-labelledby="nonlinear-theme-title">
+            <div class="research-entry-media nonlinear-media">
+              <a class="nonlinear-response" href="assets/research/nonlinear-dynamics/frequency-response.png" target="_blank" rel="noopener" aria-label="View the nonlinear frequency response at full size">
+                <img src="assets/research/nonlinear-dynamics/frequency-response.png" alt="Frequency responses of masses m1 and m2 with fundamental, second-harmonic and sum-frequency components" width="2200" height="974">
+              </a>
+              <div class="nonlinear-modes">
+                <figure>
+                  <figcaption>2&omega;<sub>1</sub></figcaption>
+                  <img src="assets/research/nonlinear-dynamics/two-omega-one.gif" alt="Mass displacements at twice omega one" width="185" height="74">
+                </figure>
+                <figure>
+                  <figcaption>&omega;<sub>1</sub> + &omega;<sub>2</sub></figcaption>
+                  <img src="assets/research/nonlinear-dynamics/omega-one-plus-omega-two.gif" alt="Mass displacements at omega one plus omega two" width="185" height="74">
+                </figure>
+              </div>
+            </div>
             <div class="research-entry-copy">
-            <h3>(Nonlinear) Structural Dynamics and Modal Analysis</h3>
+            <h3 id="nonlinear-theme-title">(Nonlinear) Structural Dynamics and Modal Analysis</h3>
             <p>
               Understanding linear and nonlinear vibration phenomena, modal
               interactions, resonance mechanisms, and dynamic behaviour of

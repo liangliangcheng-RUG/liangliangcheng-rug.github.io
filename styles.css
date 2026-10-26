@@ -762,6 +762,54 @@ h4 {
   background: #fff;
 }
 
+.nonlinear-media {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  align-self: center;
+}
+
+.nonlinear-response {
+  display: block;
+  min-width: 0;
+  cursor: zoom-in;
+}
+
+.nonlinear-response img {
+  width: 100%;
+  height: auto;
+}
+
+.nonlinear-modes {
+  display: grid;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.nonlinear-modes figure {
+  position: relative;
+  min-width: 0;
+  margin: 0;
+}
+
+.nonlinear-modes figcaption {
+  position: absolute;
+  z-index: 1;
+  top: 8%;
+  left: 15%;
+  color: #111;
+  font-family: "Times New Roman", serif;
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1;
+}
+
+.nonlinear-modes img {
+  width: 100%;
+  height: auto;
+}
+
 .research-entry-airfoil .research-entry-media {
   align-self: start;
 }
