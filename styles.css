@@ -885,6 +885,32 @@ h4 {
   line-height: 1.65;
 }
 
+.motion-comparison {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  align-self: center;
+}
+
+.motion-comparison figure {
+  min-width: 0;
+  margin: 0;
+}
+
+.motion-comparison figcaption {
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.motion-comparison video {
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+}
+
 .railway-theme-media {
   align-self: center;
 }
